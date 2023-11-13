@@ -1,0 +1,49 @@
+/*
+    Estilização das tags HTML.
+
+    Styling of HTML tags.
+*/
+
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 10%;
+        background: rgb(143,142,158);
+        background: linear-gradient(90deg, rgba(143,142,158,1) 0%, rgba(225,225,225,1) 47%, rgba(177,203,195,1) 100%);
+    }
+
+    header, section, footer {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    header .profile-username h3 {
+        font-weight: 100;
+    }
+
+    .container-footer-p {
+        margin-top: 30px;
+    }
+
+    section .btn-linkedin .bi-linkedin {
+        margin-right: 1rem;
+    }
+
+    section .btn-github .bi-github {
+        margin-right: 1rem;
+    }
+
+    section .btn-youtube .bi-youtube {
+        margin-right: 1rem;
+    }
+
+    section .btn-twitch .bi-twitch {
+        margin-right: 1rem;
+    }
+
+    .dark-mode {
+        background: #222;
+        color: #fff;
+    }
